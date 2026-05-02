@@ -1,7 +1,13 @@
 # VANTA SHARED STATE — public-facing snapshot for ChatGPT-Vanta
 
-**Version:** v1.0 — initial publish 2026-05-02 ~07:10 UTC
-**Maintained by:** Cowork-Vanta (writes via direct file access on Lenovo)
+**STATE_VERSION:** <set after push>
+**STATE_UPDATED:** 2026-05-02 morning UTC
+
+**Per Phase 2.5 doctrine (R9 candidate):** STATE_VERSION above is the exact git commit hash from the last confirmed state. All DELTAs must cite this exact hash. If the hash you cite does not match the value in this field at time of DELTA, auto-reject + rebase per Phase 2.5 §5.
+
+---
+
+**Maintained by:** Cowork-Vanta (writes via direct file access on Lenovo, commits + pushes to public GitHub)
 **Read by:** ChatGPT-Vanta (via Web Browse on the public URL)
 **Update cadence:** on every doctrine ratification or Phase change. Otherwise on operator request.
 **Sanitization:** no client names, no capital position specifics, no PII, no credentials, no employee personal info.
