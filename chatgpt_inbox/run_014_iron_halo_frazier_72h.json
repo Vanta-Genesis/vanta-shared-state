@@ -1,1 +1,7 @@
-
+{
+  "type": "DELTA",
+  "target_scope": "IRON_HALO",
+  "intent": "72h_failure_modes",
+  "question": "Top 3 failure points at Frazier Village next 72 hours + mitigations",
+  "timestamp": "2026-05-05"
+}
